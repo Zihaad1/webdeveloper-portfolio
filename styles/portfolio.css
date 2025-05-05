@@ -1,0 +1,59 @@
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* shared style  */
+.text-primary{
+    color: orangered;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;   
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+/* nav style  */
+
+nav{
+     display: flex; /* Jehetu nav tag bola hoiche mane nav (parents) er under jeshob (children) type tag ache ,h3 and ul er moddher content gulo pashapashi nite */
+     align-items: center; /* Vertical borabor nav er children contents Mary and (portfolio,Blog....) Navigation bar er Center e ante. */
+     justify-content: space-between;
+     margin: 20px 150px;
+}
+ nav ul{
+    display: flex; /* nav er vitorer ul e ja ja ache sob kichu ke pashapashi or horizontally nite*/
+    align-items: center; /* <li> er moddher content gulo horizontally same level or Navigation bar er vertical and horizontal center e nite */ 
+} 
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+     list-style: none;   /* list gulor style, mane dot gulo remove korte */
+     margin-right: 50px;  /* nav li a ei style e ei command dileo same execution hoy */
+}
+
+nav li a{
+     text-decoration: none; /* jehetu <a> tag er jonno underline creat hoyeche so text-decoration none  */
+     font-size: 20px;
+     
+}
