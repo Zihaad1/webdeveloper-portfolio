@@ -24,8 +24,23 @@
     border-radius: 5px;
     border: none;
 }
+.contact-button{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    font-size: 20px; 
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
 
+/* Header Styles */
 
+.header{
+    background-image: url(../portfolio-resources/images/developer.png),url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 
 
@@ -56,4 +71,30 @@ nav li a{
      text-decoration: none; /* jehetu <a> tag er jonno underline creat hoyeche so text-decoration none  */
      font-size: 20px;
      
+}
+
+
+
+/* Banner Styles */
+
+.banner-content{
+    max-width: 580px;
+
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-picture{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px; /* Full banner er margin image included ... Image er pashe 35px gap creat hoiche  */
 }
