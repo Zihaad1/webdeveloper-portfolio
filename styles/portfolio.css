@@ -9,6 +9,11 @@
   }
 
 /* shared style  */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: orangered;
 }
@@ -33,6 +38,20 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center;
+}
+
 
 /* Header Styles */
 
@@ -97,4 +116,77 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 230px; /* Full banner er margin image included ... Image er pashe 35px gap creat hoiche  */
+}
+
+/* Main Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px; 
+}
+
+
+
+/* ABOUT Styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+
+
+/* What I do Styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.13);
+}
+
+
+/* A Summary of My Resume Styles */
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600; /* Bold korar jonno */
+    margin-bottom: 15px;
+    
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
