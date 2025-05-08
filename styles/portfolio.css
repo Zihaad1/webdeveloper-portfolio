@@ -190,3 +190,27 @@ main section{
 .resume-download-cv{
     margin-top: 50px;
 }
+
+
+
+/* footer Styles  */
+
+footer{
+    padding: 130px 230px; 
+    /* margin: 130px 230px;  margin dile full footer box ta container hishebe count hoy and Margin ta overall footer box e execution hoy but Padding use korle  amader TEXT and footer box er border theke ekta gap creat hoy   */
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px; /* TB , LR */
+    margin-bottom: 24px;
+    border: none;
+}
